@@ -26,8 +26,9 @@ function App() {
                clickHandler={() => console.log("shop all bags")}
            />
            <Button
-               buttonType="button" disabled
+               buttonType="button"
                buttonText="pre-orders"
+               disabledButton={true}
            />
 
          {/* <button type="button" onClick={() => console.log("to the collection")}>to the collection</button>
